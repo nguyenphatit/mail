@@ -1,0 +1,97 @@
+[
+  {
+    "id": "compose.title",
+    "defaultMessage": "Title",
+    "filepath": "src/components/compose/Compose.js"
+  },
+  {
+    "id": "compose.to",
+    "defaultMessage": "To",
+    "filepath": "src/components/compose/Compose.js"
+  },
+  {
+    "id": "compose.send",
+    "defaultMessage": "Send",
+    "filepath": "src/components/compose/Compose.js"
+  },
+  {
+    "id": "compose.content",
+    "defaultMessage": "Content",
+    "filepath": "src/components/compose/Compose.js"
+  },
+  {
+    "id": "compose",
+    "defaultMessage": "Compose",
+    "filepath": "src/components/dashboard/Dashboard.js"
+  },
+  {
+    "id": "inbox",
+    "defaultMessage": "Inbox",
+    "filepath": "src/components/dashboard/Dashboard.js"
+  },
+  {
+    "id": "sent",
+    "defaultMessage": "Sent",
+    "filepath": "src/components/dashboard/Dashboard.js"
+  },
+  {
+    "id": "drafts",
+    "defaultMessage": "Drafts",
+    "filepath": "src/components/dashboard/Dashboard.js"
+  },
+  {
+    "id": "trash",
+    "defaultMessage": "Trash",
+    "filepath": "src/components/dashboard/Dashboard.js"
+  },
+  {
+    "id": "Spam",
+    "defaultMessage": "Spam",
+    "filepath": "src/components/dashboard/Dashboard.js"
+  },
+  {
+    "id": "login.title",
+    "defaultMessage": "Log in",
+    "filepath": "src/components/login/Login.js"
+  },
+  {
+    "id": "login.signup",
+    "defaultMessage": "Registry now!",
+    "filepath": "src/components/login/Login.js"
+  },
+  {
+    "id": "login.password",
+    "defaultMessage": "Password",
+    "filepath": "src/components/login/Login.js"
+  },
+  {
+    "id": "search.search",
+    "defaultMessage": "Search",
+    "filepath": "src/components/search/Search.js"
+  },
+  {
+    "id": "sort.bydate",
+    "defaultMessage": "Sort by date",
+    "filepath": "src/components/sort/Sort.js"
+  },
+  {
+    "id": "sort.byname",
+    "defaultMessage": "Sort by name",
+    "filepath": "src/components/sort/Sort.js"
+  },
+  {
+    "id": "inboxcontainer.messageContent",
+    "defaultMessage": "No content",
+    "filepath": "src/containers/inbox/InboxContainer.js"
+  },
+  {
+    "id": "sentcontainer.messageContent",
+    "defaultMessage": "No content",
+    "filepath": "src/containers/sent/SentContainer.js"
+  },
+  {
+    "id": "trashcontainer.messageContent",
+    "defaultMessage": "No content",
+    "filepath": "src/containers/trash/TrashContainer.js"
+  }
+]

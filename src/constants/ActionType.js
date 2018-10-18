@@ -1,0 +1,10 @@
+export const GET_ERRORS = 'GET_ERRORS';
+export const AUTHENTICATE = 'AUTHENTICATE';
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+export const LOAD_ALL_MAIL_INBOX = 'LOAD_ALL_MAIL_INBOX';
+export const LOAD_ALL_MAIL_SENT = 'LOAD_ALL_MAIL_SENT';
+export const LOAD_ALL_MAIL_TRASH = 'LOAD_ALL_MAIL_TRASH';
+export const LOAD_MAIL_INFO = 'LOAD_MAIL_INFO';
+export const DELETE_RESTORE = 'DELETE_RESTORE';
+export const SEND_MAIL = 'SEND_MAIL';
+export const READ_MAIL = 'READ_MAIL';

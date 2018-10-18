@@ -1,0 +1,12 @@
+@media (min-width: 960px) {
+    .insertImg {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 960px) {
+    .insertImg {
+        width: 100%;
+        min-width: 30%;
+    }
+}

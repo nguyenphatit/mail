@@ -1,0 +1,21 @@
+{
+  "Spam": "Thư rác",
+  "compose": "Soạn thư mới",
+  "compose.content": "Nội dung",
+  "compose.send": "Gửi",
+  "compose.title": "Chủ đề",
+  "compose.to": "Gửi tới",
+  "drafts": "Thư nháp",
+  "inbox": "Hộp thư",
+  "inboxcontainer.messageContent": "Không có nội dung để hiển thị",
+  "login.password": "Mật khẩu",
+  "login.signup": "Đăng ký ngay!",
+  "login.title": "Đăng nhập",
+  "search.search": "Tìm kiếm",
+  "sent": "Thư đã gửi",
+  "sentcontainer.messageContent": "Không có nội dung để hiển thị",
+  "sort.bydate": "Sắp xếp theo ngày",
+  "sort.byname": "Sắp xếp theo tên",
+  "trash": "Thư đã xoá",
+  "trashcontainer.messageContent": "Không có nội dung để hiển thị"
+}

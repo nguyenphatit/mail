@@ -1,0 +1,21 @@
+{
+  "Spam": "Spam",
+  "compose": "Compose",
+  "compose.content": "Content",
+  "compose.send": "Send",
+  "compose.title": "Title",
+  "compose.to": "To",
+  "drafts": "Drafts",
+  "inbox": "Inbox",
+  "inboxcontainer.messageContent": "No content",
+  "login.password": "Password",
+  "login.signup": "Registry now!",
+  "login.title": "Log in",
+  "search.search": "Search",
+  "sent": "Sent",
+  "sentcontainer.messageContent": "No content",
+  "sort.bydate": "Sort by date",
+  "sort.byname": "Sort by name",
+  "trash": "Trash",
+  "trashcontainer.messageContent": "No content"
+}
