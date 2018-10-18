@@ -1,7 +1,7 @@
 {
   "main.css": "/mail/static/css/main.7ff07eff.chunk.css",
-  "main.js": "/mail/static/js/main.77d8ec3a.chunk.js",
-  "main.js.map": "/mail/static/js/main.77d8ec3a.chunk.js.map",
+  "main.js": "/mail/static/js/main.b7dbbd41.chunk.js",
+  "main.js.map": "/mail/static/js/main.b7dbbd41.chunk.js.map",
   "static/css/1.d567bbbb.chunk.css": "/mail/static/css/1.d567bbbb.chunk.css",
   "static/js/1.5a70ab6d.chunk.js": "/mail/static/js/1.5a70ab6d.chunk.js",
   "static/js/1.5a70ab6d.chunk.js.map": "/mail/static/js/1.5a70ab6d.chunk.js.map",
@@ -13,6 +13,6 @@
   "static/css/1.d567bbbb.chunk.css.map": "/mail/static/css/1.d567bbbb.chunk.css.map",
   "static/css/main.7ff07eff.chunk.css.map": "/mail/static/css/main.7ff07eff.chunk.css.map",
   "index.html": "/mail/index.html",
-  "precache-manifest.bb52275e0f4746cffed155bc9bf4662e.js": "/mail/precache-manifest.bb52275e0f4746cffed155bc9bf4662e.js",
+  "precache-manifest.f75f842ef3adbcb8a8689b6707720cd1.js": "/mail/precache-manifest.f75f842ef3adbcb8a8689b6707720cd1.js",
   "service-worker.js": "/mail/service-worker.js"
 }
