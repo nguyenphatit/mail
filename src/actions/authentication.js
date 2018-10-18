@@ -6,7 +6,7 @@ import jwt_decode from 'jwt-decode';
 
 export const registerUser = (user, history) => dispatch => {
     axios.post(`${NODE_API}/api/users/register`, user)
-        .then(res => window.location.href = '/mail/login')
+        .then(res => window.location.href = '/login')
         .catch(err => {
             if (err.data) {
                 dispatch({
@@ -52,7 +52,7 @@ export const logoutUser = history => dispatch => {
     localStorage.removeItem('jwtToken');
     setAuthToken(false);
     dispatch(setCurrentUser({}));
-    window.location.href = '/mail/login'
+    window.location.href = '/login'
 }
 
 export const authenticate = () => dispatch => {
