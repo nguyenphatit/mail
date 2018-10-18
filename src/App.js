@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import routes from './routes';
-import { Router, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { HashRouter } from 'react-router-dom'
 // theme
 import 'typeface-roboto';
@@ -47,7 +47,7 @@ if (localStorage.jwtToken) {
 	const currentTime = Date.now() / 1000;
 	if (decoded.exp < currentTime) {
 		store.dispatch(logoutUser());
-		// window.location.href = '/login'
+		window.location.href = '/login'
 	}
 }
 
