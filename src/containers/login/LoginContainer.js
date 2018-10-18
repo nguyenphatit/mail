@@ -12,7 +12,7 @@ class LoginContainer extends Component {
     }
 
     onSubmit = (user) => {
-        this.props.loginUser(user);
+        this.props.loginUser(user, this.props.history);
     }
 
     componentDidMount() {
@@ -48,8 +48,8 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch, props) => {
     return {
-        loginUser: user => {
-            dispatch(loginUser(user))
+        loginUser: (user, history) => {
+            dispatch(loginUser(user, history))
         }
     }
 }

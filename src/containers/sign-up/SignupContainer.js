@@ -13,18 +13,20 @@ class SignupContainer extends Component {
     }
     
     onSubmit = user => {
-        this.props.signupUser(user)
+        this.props.signupUser(user, this.props.history)
     }
 
     componentDidMount() {
         if (this.props.auth.isAuthenticated) {
-            window.location.href = '/';
+            // window.location.href = '/';
+            this.props.history.push('/')
         }
     }
 
     componentWillReceiveProps(nextProps) {
         if (nextProps.auth.isAuthenticated) {
-            window.location.href = '/';
+            // window.location.href = '/';
+            this.props.history.push('/')
         }
         if (nextProps.errors) {
             this.setState({
@@ -49,8 +51,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProp = (dispatch, props) => {
     return {
-        signupUser: user => {
-            dispatch(registerUser(user))
+        signupUser: (user, history) => {
+            dispatch(registerUser(user, history))
         }
     }
 }

@@ -44,7 +44,7 @@ const routes = [
     }, {
         path: '/trash/:id',
         exact: false,
-        main: ({match, history}) => <Dashboard><MailContentContainer match={match} history={history} /></Dashboard>
+        main: ({match, history}) => <Dashboard history={history}><MailContentContainer match={match} history={history} /></Dashboard>
     }
 ]
 

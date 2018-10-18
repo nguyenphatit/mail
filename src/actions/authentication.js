@@ -6,7 +6,8 @@ import jwt_decode from 'jwt-decode';
 
 export const registerUser = (user, history) => dispatch => {
     axios.post(`${NODE_API}/api/users/register`, user)
-        .then(res => window.location.href = '/login')
+        // .then(res => window.location.href = '/login')
+        .then(res => history.push('/login'))
         .catch(err => {
             if (err.data) {
                 dispatch({
@@ -14,12 +15,12 @@ export const registerUser = (user, history) => dispatch => {
                     payload: err.response.data
                 })
             } else {
-                window.location.href = ''
+                history.push('')
             }
         })
 }
 
-export const loginUser = user => dispatch => {
+export const loginUser = (user, history) => dispatch => {
     axios.post(`${NODE_API}/api/users/login`, user)
         .then(res => {
             const { token } = res.data;
@@ -36,7 +37,8 @@ export const loginUser = user => dispatch => {
                     payload: err.response.data
                 })
             } else {
-                window.location.href = ''
+                history.push('')
+                // window.location.href = ''
             }
         })
 }
@@ -55,7 +57,7 @@ export const logoutUser = history => dispatch => {
     window.location.href = '/login'
 }
 
-export const authenticate = () => dispatch => {
+export const authenticate = history => dispatch => {
     setAuthToken(localStorage.getItem('jwtToken'))
     axios.get(`${NODE_API}/api/users/me`)
         .then(res => {
