@@ -1,7 +1,7 @@
 {
   "main.css": "/mail/static/css/main.7ff07eff.chunk.css",
-  "main.js": "/mail/static/js/main.613d4ff1.chunk.js",
-  "main.js.map": "/mail/static/js/main.613d4ff1.chunk.js.map",
+  "main.js": "/mail/static/js/main.ffef6bfe.chunk.js",
+  "main.js.map": "/mail/static/js/main.ffef6bfe.chunk.js.map",
   "static/css/1.d567bbbb.chunk.css": "/mail/static/css/1.d567bbbb.chunk.css",
   "static/js/1.5a70ab6d.chunk.js": "/mail/static/js/1.5a70ab6d.chunk.js",
   "static/js/1.5a70ab6d.chunk.js.map": "/mail/static/js/1.5a70ab6d.chunk.js.map",
@@ -10,9 +10,9 @@
   "static/media/index.css": "/mail/static/media/roboto-latin-900italic.bc833e72.woff",
   "static/media/earth.png": "/mail/static/media/earth.dd1024a7.png",
   "static/media/NotFound.scss": "/mail/static/media/space.cc223ffa.png",
-  "static/css/main.7ff07eff.chunk.css.map": "/mail/static/css/main.7ff07eff.chunk.css.map",
   "static/css/1.d567bbbb.chunk.css.map": "/mail/static/css/1.d567bbbb.chunk.css.map",
+  "static/css/main.7ff07eff.chunk.css.map": "/mail/static/css/main.7ff07eff.chunk.css.map",
   "index.html": "/mail/index.html",
-  "precache-manifest.ba1f0b868e23baeeeeb194a0b6da6a48.js": "/mail/precache-manifest.ba1f0b868e23baeeeeb194a0b6da6a48.js",
+  "precache-manifest.392ff9b718591a109ce74baa8ba8ff75.js": "/mail/precache-manifest.392ff9b718591a109ce74baa8ba8ff75.js",
   "service-worker.js": "/mail/service-worker.js"
 }
