@@ -1,10 +1,10 @@
 {
   "main.css": "/mail/static/css/main.7ff07eff.chunk.css",
-  "main.js": "/mail/static/js/main.0c28efd6.chunk.js",
-  "main.js.map": "/mail/static/js/main.0c28efd6.chunk.js.map",
+  "main.js": "/mail/static/js/main.04b58a06.chunk.js",
+  "main.js.map": "/mail/static/js/main.04b58a06.chunk.js.map",
   "static/css/1.d567bbbb.chunk.css": "/mail/static/css/1.d567bbbb.chunk.css",
-  "static/js/1.5a70ab6d.chunk.js": "/mail/static/js/1.5a70ab6d.chunk.js",
-  "static/js/1.5a70ab6d.chunk.js.map": "/mail/static/js/1.5a70ab6d.chunk.js.map",
+  "static/js/1.893342ca.chunk.js": "/mail/static/js/1.893342ca.chunk.js",
+  "static/js/1.893342ca.chunk.js.map": "/mail/static/js/1.893342ca.chunk.js.map",
   "runtime~main.js": "/mail/static/js/runtime~main.8767071e.js",
   "runtime~main.js.map": "/mail/static/js/runtime~main.8767071e.js.map",
   "static/media/index.css": "/mail/static/media/roboto-latin-900italic.bc833e72.woff",
@@ -13,6 +13,6 @@
   "static/css/1.d567bbbb.chunk.css.map": "/mail/static/css/1.d567bbbb.chunk.css.map",
   "static/css/main.7ff07eff.chunk.css.map": "/mail/static/css/main.7ff07eff.chunk.css.map",
   "index.html": "/mail/index.html",
-  "precache-manifest.4e2578456a9f682624b4c90bde3572b6.js": "/mail/precache-manifest.4e2578456a9f682624b4c90bde3572b6.js",
+  "precache-manifest.f118f1fa8d8346650a61d3821d1db341.js": "/mail/precache-manifest.f118f1fa8d8346650a61d3821d1db341.js",
   "service-worker.js": "/mail/service-worker.js"
 }
