@@ -6,12 +6,13 @@ import { logoutUser, authenticate } from './../../actions/authentication';
 class DashboardContainer extends Component {
 
     onLogout = history => {
-        this.props.onLogout(history);
+        this.props.onLogout(this.props.history);
     }
 
     componentDidMount() {
         if (!this.props.auth.isAuthenticated) {
-            window.location.href = '/login';
+            // window.location.href = '/login';
+            this.props.history.push('/login')
         }
         this.props.authenticate();
     }

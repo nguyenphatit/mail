@@ -1,5 +1,5 @@
 import React from 'react';
-import Dashboard from './containers/dashboard/DashboardContainer';
+import DashboardContainer from './containers/dashboard/DashboardContainer';
 import ComposeContainer from './containers/compose/ComposeContainer';
 import InboxContainer from './containers/inbox/InboxContainer';
 import DraftsContainer from './containers/drafts/DraftsContainer';
@@ -12,39 +12,39 @@ const routes = [
     {
         path: '/',
         exact: true,
-        main: ({match, history}) => <Dashboard><InboxContainer match={match} history={history} /></Dashboard>
+        main: ({match, history}) => <DashboardContainer history={history}><InboxContainer match={match} history={history} /></DashboardContainer>
     }, {
         path: '/compose',
         exact: true,
-        main: ({match, history}) => <Dashboard><ComposeContainer match={match} history={history} /></Dashboard>
+        main: ({match, history}) => <DashboardContainer history={history}><ComposeContainer match={match} history={history} /></DashboardContainer>
     }, {
         path: '/drafts',
         exact: true,
-        main: () => <Dashboard><DraftsContainer /></Dashboard>
+        main: () => <DashboardContainer><DraftsContainer /></DashboardContainer>
     }, {
         path: '/sent',
         exact: true,
-        main: ({match, history}) => <Dashboard><SentContainer match={match} history={history} /></Dashboard>
+        main: ({match, history}) => <DashboardContainer history={history}><SentContainer match={match} history={history} /></DashboardContainer>
     }, {
         path: '/trash',
         exact: true,
-        main: ({match, history}) => <Dashboard><TrashContainer match={match} history={history} /></Dashboard>
+        main: ({match, history}) => <DashboardContainer history={history}><TrashContainer match={match} history={history} /></DashboardContainer>
     }, {
         path: '/spam',
         exact: true,
-        main: () => <Dashboard><SpamContainer /></Dashboard>
+        main: () => <DashboardContainer><SpamContainer /></DashboardContainer>
     }, {
         path: '/inbox/:id',
         exact: false,
-        main: ({match, history}) => <Dashboard><MailContentContainer match={match} history={history} /></Dashboard>
+        main: ({match, history}) => <DashboardContainer history={history}><MailContentContainer match={match} history={history} /></DashboardContainer>
     }, {
         path: '/sent/:id',
         exact: false,
-        main: ({match, history}) => <Dashboard><MailContentContainer match={match} history={history} /></Dashboard>
+        main: ({match, history}) => <DashboardContainer history={history}><MailContentContainer match={match} history={history} /></DashboardContainer>
     }, {
         path: '/trash/:id',
         exact: false,
-        main: ({match, history}) => <Dashboard history={history}><MailContentContainer match={match} history={history} /></Dashboard>
+        main: ({match, history}) => <DashboardContainer history={history}><MailContentContainer match={match} history={history} /></DashboardContainer>
     }
 ]
 

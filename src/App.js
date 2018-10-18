@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import routes from './routes';
 import { Router, Route, Switch } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom'
 // theme
 import 'typeface-roboto';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
@@ -46,7 +47,7 @@ if (localStorage.jwtToken) {
 	const currentTime = Date.now() / 1000;
 	if (decoded.exp < currentTime) {
 		store.dispatch(logoutUser());
-		window.location.href = '/login'
+		// window.location.href = '/login'
 	}
 }
 
@@ -72,14 +73,14 @@ class App extends Component {
 			<MuiThemeProvider theme={theme}>
 				<IntlProvider locale={locale} key={locale} messages={messages}>
 					<Provider store={store}>
-						<Router history={history} basename={process.env.PUBLIC_URL}>
+						<HashRouter history={history} basename={process.env.PUBLIC_URL}>
 							<Switch>
 								{this.renderContent(routes)}
 								<Route path='/login' render={({history}) => <LoginContainer history={history} />} />
 								<Route path='/signup' render={({history}) => <SignupContainer history={history} />} />
 								<Route path='' render={() => <NotFound />} />
 							</Switch>
-						</Router >
+						</HashRouter >
 					</Provider>
 				</IntlProvider>
 			</MuiThemeProvider>

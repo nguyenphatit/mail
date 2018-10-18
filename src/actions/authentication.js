@@ -54,7 +54,7 @@ export const logoutUser = history => dispatch => {
     localStorage.removeItem('jwtToken');
     setAuthToken(false);
     dispatch(setCurrentUser({}));
-    window.location.href = '/login'
+    history.push('/login')
 }
 
 export const authenticate = history => dispatch => {
