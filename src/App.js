@@ -46,7 +46,7 @@ if (localStorage.jwtToken) {
 	const currentTime = Date.now() / 1000;
 	if (decoded.exp < currentTime) {
 		store.dispatch(logoutUser());
-		window.location.href = '/login'
+		window.location.href = '/mail/login'
 	}
 }
 
@@ -75,9 +75,9 @@ class App extends Component {
 						<Router history={history}>
 							<Switch>
 								{this.renderContent(routes)}
-								<Route path='/login' render={({history}) => <LoginContainer history={history} />} />
-								<Route path='/signup' render={({history}) => <SignupContainer history={history} />} />
-								<Route path='' render={() => <NotFound />} />
+								<Route path='/mail/login' render={({history}) => <LoginContainer history={history} />} />
+								<Route path='/mail/signup' render={({history}) => <SignupContainer history={history} />} />
+								{/* <Route path='' render={() => <NotFound />} /> */}
 							</Switch>
 						</Router >
 					</Provider>
