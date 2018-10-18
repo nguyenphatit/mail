@@ -11,7 +11,7 @@ class DashboardContainer extends Component {
 
     componentDidMount() {
         if (!this.props.auth.isAuthenticated) {
-            window.location.href = '/login';
+            window.location.href = '/mail/login';
         }
         this.props.authenticate();
     }
