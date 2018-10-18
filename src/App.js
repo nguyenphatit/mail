@@ -72,12 +72,12 @@ class App extends Component {
 			<MuiThemeProvider theme={theme}>
 				<IntlProvider locale={locale} key={locale} messages={messages}>
 					<Provider store={store}>
-						<Router history={history}>
+						<Router history={history} basename={process.env.PUBLIC_URL}>
 							<Switch>
 								{this.renderContent(routes)}
-								<Route path='/mail/login' render={({history}) => <LoginContainer history={history} />} />
-								<Route path='/mail/signup' render={({history}) => <SignupContainer history={history} />} />
-								{/* <Route path='' render={() => <NotFound />} /> */}
+								<Route path='/login' render={({history}) => <LoginContainer history={history} />} />
+								<Route path='/signup' render={({history}) => <SignupContainer history={history} />} />
+								<Route path='' render={() => <NotFound />} />
 							</Switch>
 						</Router >
 					</Provider>
