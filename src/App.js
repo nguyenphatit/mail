@@ -22,7 +22,7 @@ import { setCurrentUser, logoutUser } from './actions';
 
 addLocaleData(viLocaleData);
 
-const locale = window.location.search.replace('?locale=', '') || 'en'
+const locale = window.location.search.replace('mail/#/?locale=', '') || 'en'
 
 const messages = translations[locale];
 
