@@ -15,7 +15,7 @@ class ComposeContainer extends Component {
                 errors: nextProps.errors
             });
         }
-        window.location.href = '/sent';
+        this.props.history.push('/sent')
     }
 
     render() {

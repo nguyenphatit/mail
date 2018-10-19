@@ -73,7 +73,7 @@ class App extends Component {
 			<MuiThemeProvider theme={theme}>
 				<IntlProvider locale={locale} key={locale} messages={messages}>
 					<Provider store={store}>
-						<HashRouter history={history} basename={process.env.PUBLIC_URL}>
+						<HashRouter history={history}>
 							<Switch>
 								{this.renderContent(routes)}
 								<Route path='/login' render={({history}) => <LoginContainer history={history} />} />
