@@ -73,7 +73,7 @@ export const authenticate = history => dispatch => {
                     payload: err.response.data
                 })
             } else {
-                window.location.href = ''
+                history.push('')
             }
         })
 }
